@@ -1,20 +1,6 @@
 <?php
  include "connection.php";
-//  if (isset($_GET['submit'])){
-//  $id=["id"];
-//  $car_Name="";
-//  $fuel="";
-//  $cost="";
-//  $Numbers="";
-//  $res=mysqli_query($conn, "SELECT * FROM inventory WHERE car_id=$id ");
-//  while($row=mysqli_fetch_array($res)){
-//   $car_Name=$row["car_Name"];
-//  $fuel=$row["fuel"];
-//  $cost=$row["cost"];
-//  $Numbers=$row["Numbers"];
-//  }
-    
-//  }
+
 $id=$_GET['id'];
 $qry=mysqli_query($conn,"SELECT * FROM inventory WHERE car_id=$id");//select query
 $data=mysqli_fetch_array($qry);

@@ -103,7 +103,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
 </head>
 <body >
 <span class="border border-info">
-<div class="flex-shrink-0 p-3 bg-white" style="width: 280px; height=100%; ">
+<div class="flex-shrink-0 p-3 bg-white" style="width: 280px; height:100%; ">
     <a href="/" class="d-flex align-items-center pb-3 mb-3 link-dark text-decoration-none border-bottom">
     <i class="fa fa-user"></i>
       <span class="fs-5 fw-semibold"> &nbsp;<?php echo htmlspecialchars($_SESSION["username"]); ?> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<i class="fa fa-tachometer"></i></span>
